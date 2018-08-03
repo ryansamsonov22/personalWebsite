@@ -1,6 +1,9 @@
 body{
     background-image: url("assets/Website\ Pic.JPG");
-    background-size: cover
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat
 }
 .topnav {
     background-color: #333;
@@ -25,6 +28,22 @@ body{
 #name{
     color: white;
     display: block;
-    margin-left: 41%;
-    margin-top: 9%;
+    margin-left: 1%;
+    width: 100%;
+    background: linear-gradient(to right, rgba(128,128,128, 0.6), rgba(128,128,128,0), rgba(128,128,128,0));
+}
+#content_container
+{
+    margin-top: 15%;
+    height: 100%;
+}
+#main_content {
+    background: rgba(255, 255, 255, 0.8);
+    height:100%;
+}
+#name h1 {opacity: 1}
+
+p{
+    width: 30%;
+    font-size: 20px;
 }
